@@ -10,11 +10,7 @@
 #include "Phoenix/FND/Util.h"
 #include "../Source/Graphics/Texture/Win/DirectX11/TextureDX11.h"
 #include "../Source/Graphics/Context/Win/DirectX11/ContextDX11.h"
-#include "../Enemy/Enemy.h"
-#include "../AI/MetaAI/MetaType.h"
 #include "Phoenix/OS/StartUp.h"
-#include "../Easing/Easing.h"
-#include "../AI/MetaAI/BattleEnemySystem.h"
 
 
 void SceneGame::Construct(SceneSystem* sceneSystem)

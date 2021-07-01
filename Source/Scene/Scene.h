@@ -100,7 +100,6 @@ private:
 	std::unique_ptr<Phoenix::Graphics::Camera> lightSpaceCamera;
 	std::unique_ptr<Phoenix::Graphics::IBuffer> shaderConstantsBuffer;
 	std::unique_ptr<Phoenix::Graphics::ISampler> comparisonSamplerState;
-	ShaderConstants shaderContexts;
 
 	// モーションブラー
 	bool isMotionBlur = false;

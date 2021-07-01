@@ -1,7 +1,5 @@
 #include "SceneSystem.h"
 #include "FadeSystem.h"
-#include "../Player/Player.h"
-#include "../Boss/Boss.h"
 #include "Phoenix/Types.h"
 #include "Phoenix/FND/Util.h"
 #include "Phoenix/Graphics/GraphicsDevice.h"
@@ -28,10 +26,6 @@ void SceneSystem::Initialize(Phoenix::OS::IDisplay* display, Phoenix::Graphics::
 
 	fadeSystem = FadeSystem::Create();
 	fadeSystem->Initialize(graphicsDevice);
-
-	/*labo = SceneLabo::Create();
-	labo->Construct(this);
-	onLabo = false;*/
 
 	AddScene<SceneTitle>();
 	AddScene<SceneGame>();

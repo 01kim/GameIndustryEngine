@@ -6,7 +6,6 @@
 #include "Phoenix/OS/Display.h"
 #include "Phoenix/Graphics/GraphicsDevice.h"
 #include "SceneCommonData.h"
-#include "SceneLabo.h"
 
 
 enum class SceneType

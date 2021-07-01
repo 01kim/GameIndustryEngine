@@ -17,8 +17,6 @@
 #include "Phoenix/FrameWork/Shader/Shader.h"
 #include "../Source/Loader/Loader.h"
 #include "imgui.h"
-#include "Player/Player.h"
-#include "Boss/Boss.h"
 #include "Scene/SceneSystem.h"
 
 

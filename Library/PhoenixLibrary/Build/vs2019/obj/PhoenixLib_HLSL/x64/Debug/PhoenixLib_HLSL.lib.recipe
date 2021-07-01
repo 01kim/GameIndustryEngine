@@ -3,190 +3,190 @@
   <ProjectOutputs />
   <ContentFiles>
     <ContentFile>
-      <FullPath>C:\Users\tkm85\Documents\BOXERProject\Data\Shader\AverageLuminancePS.cso</FullPath>
+      <FullPath>C:\Users\tkm85\Documents\GameIndustryEngine\Data\Shader\AverageLuminancePS.cso</FullPath>
     </ContentFile>
     <ContentFile>
-      <FullPath>C:\Users\tkm85\Documents\BOXERProject\Data\Shader\BasicMaskPS.cso</FullPath>
+      <FullPath>C:\Users\tkm85\Documents\GameIndustryEngine\Data\Shader\BasicMaskPS.cso</FullPath>
     </ContentFile>
     <ContentFile>
-      <FullPath>C:\Users\tkm85\Documents\BOXERProject\Data\Shader\BasicPS.cso</FullPath>
+      <FullPath>C:\Users\tkm85\Documents\GameIndustryEngine\Data\Shader\BasicPS.cso</FullPath>
     </ContentFile>
     <ContentFile>
-      <FullPath>C:\Users\tkm85\Documents\BOXERProject\Data\Shader\BasicVS.cso</FullPath>
+      <FullPath>C:\Users\tkm85\Documents\GameIndustryEngine\Data\Shader\BasicVS.cso</FullPath>
     </ContentFile>
     <ContentFile>
-      <FullPath>C:\Users\tkm85\Documents\BOXERProject\Data\Shader\BasicVSSkin.cso</FullPath>
+      <FullPath>C:\Users\tkm85\Documents\GameIndustryEngine\Data\Shader\BasicVSSkin.cso</FullPath>
     </ContentFile>
     <ContentFile>
-      <FullPath>C:\Users\tkm85\Documents\BOXERProject\Data\Shader\BloomBlendPS.cso</FullPath>
+      <FullPath>C:\Users\tkm85\Documents\GameIndustryEngine\Data\Shader\BloomBlendPS.cso</FullPath>
     </ContentFile>
     <ContentFile>
-      <FullPath>C:\Users\tkm85\Documents\BOXERProject\Data\Shader\BitonicSort.cso</FullPath>
+      <FullPath>C:\Users\tkm85\Documents\GameIndustryEngine\Data\Shader\BitonicSort.cso</FullPath>
     </ContentFile>
     <ContentFile>
-      <FullPath>C:\Users\tkm85\Documents\BOXERProject\Data\Shader\TestComputeShader.cso</FullPath>
+      <FullPath>C:\Users\tkm85\Documents\GameIndustryEngine\Data\Shader\TestComputeShader.cso</FullPath>
     </ContentFile>
     <ContentFile>
-      <FullPath>C:\Users\tkm85\Documents\BOXERProject\Data\Shader\BeginUpdateCS.cso</FullPath>
+      <FullPath>C:\Users\tkm85\Documents\GameIndustryEngine\Data\Shader\BeginUpdateCS.cso</FullPath>
     </ContentFile>
     <ContentFile>
-      <FullPath>C:\Users\tkm85\Documents\BOXERProject\Data\Shader\BossAuraEffectCS.cso</FullPath>
+      <FullPath>C:\Users\tkm85\Documents\GameIndustryEngine\Data\Shader\BossAuraEffectCS.cso</FullPath>
     </ContentFile>
     <ContentFile>
-      <FullPath>C:\Users\tkm85\Documents\BOXERProject\Data\Shader\ClearParticlesCS.cso</FullPath>
+      <FullPath>C:\Users\tkm85\Documents\GameIndustryEngine\Data\Shader\ClearParticlesCS.cso</FullPath>
     </ContentFile>
     <ContentFile>
-      <FullPath>C:\Users\tkm85\Documents\BOXERProject\Data\Shader\ClearSystemCS.cso</FullPath>
+      <FullPath>C:\Users\tkm85\Documents\GameIndustryEngine\Data\Shader\ClearSystemCS.cso</FullPath>
     </ContentFile>
     <ContentFile>
-      <FullPath>C:\Users\tkm85\Documents\BOXERProject\Data\Shader\DusterEffectCS.cso</FullPath>
+      <FullPath>C:\Users\tkm85\Documents\GameIndustryEngine\Data\Shader\DusterEffectCS.cso</FullPath>
     </ContentFile>
     <ContentFile>
-      <FullPath>C:\Users\tkm85\Documents\BOXERProject\Data\Shader\EmitCS.cso</FullPath>
+      <FullPath>C:\Users\tkm85\Documents\GameIndustryEngine\Data\Shader\EmitCS.cso</FullPath>
     </ContentFile>
     <ContentFile>
-      <FullPath>C:\Users\tkm85\Documents\BOXERProject\Data\Shader\EmitFromMeshCS.cso</FullPath>
+      <FullPath>C:\Users\tkm85\Documents\GameIndustryEngine\Data\Shader\EmitFromMeshCS.cso</FullPath>
     </ContentFile>
     <ContentFile>
-      <FullPath>C:\Users\tkm85\Documents\BOXERProject\Data\Shader\EmittedParticleAlphaPS.cso</FullPath>
+      <FullPath>C:\Users\tkm85\Documents\GameIndustryEngine\Data\Shader\EmittedParticleAlphaPS.cso</FullPath>
     </ContentFile>
     <ContentFile>
-      <FullPath>C:\Users\tkm85\Documents\BOXERProject\Data\Shader\EmittedParticleEmissivePS.cso</FullPath>
+      <FullPath>C:\Users\tkm85\Documents\GameIndustryEngine\Data\Shader\EmittedParticleEmissivePS.cso</FullPath>
     </ContentFile>
     <ContentFile>
-      <FullPath>C:\Users\tkm85\Documents\BOXERProject\Data\Shader\EmittedParticlePS.cso</FullPath>
+      <FullPath>C:\Users\tkm85\Documents\GameIndustryEngine\Data\Shader\EmittedParticlePS.cso</FullPath>
     </ContentFile>
     <ContentFile>
-      <FullPath>C:\Users\tkm85\Documents\BOXERProject\Data\Shader\EmittedParticleVS.cso</FullPath>
+      <FullPath>C:\Users\tkm85\Documents\GameIndustryEngine\Data\Shader\EmittedParticleVS.cso</FullPath>
     </ContentFile>
     <ContentFile>
-      <FullPath>C:\Users\tkm85\Documents\BOXERProject\Data\Shader\FillUnusedIndexCS.cso</FullPath>
+      <FullPath>C:\Users\tkm85\Documents\GameIndustryEngine\Data\Shader\FillUnusedIndexCS.cso</FullPath>
     </ContentFile>
     <ContentFile>
-      <FullPath>C:\Users\tkm85\Documents\BOXERProject\Data\Shader\FinishUpdateCS.cso</FullPath>
+      <FullPath>C:\Users\tkm85\Documents\GameIndustryEngine\Data\Shader\FinishUpdateCS.cso</FullPath>
     </ContentFile>
     <ContentFile>
-      <FullPath>C:\Users\tkm85\Documents\BOXERProject\Data\Shader\InitializeParticlesCS.cso</FullPath>
+      <FullPath>C:\Users\tkm85\Documents\GameIndustryEngine\Data\Shader\InitializeParticlesCS.cso</FullPath>
     </ContentFile>
     <ContentFile>
-      <FullPath>C:\Users\tkm85\Documents\BOXERProject\Data\Shader\PetalEffectCS.cso</FullPath>
+      <FullPath>C:\Users\tkm85\Documents\GameIndustryEngine\Data\Shader\PetalEffectCS.cso</FullPath>
     </ContentFile>
     <ContentFile>
-      <FullPath>C:\Users\tkm85\Documents\BOXERProject\Data\Shader\KickoffUpdateCS.cso</FullPath>
+      <FullPath>C:\Users\tkm85\Documents\GameIndustryEngine\Data\Shader\KickoffUpdateCS.cso</FullPath>
     </ContentFile>
     <ContentFile>
-      <FullPath>C:\Users\tkm85\Documents\BOXERProject\Data\Shader\PlayerHitEffectCS.cso</FullPath>
+      <FullPath>C:\Users\tkm85\Documents\GameIndustryEngine\Data\Shader\PlayerHitEffectCS.cso</FullPath>
     </ContentFile>
     <ContentFile>
-      <FullPath>C:\Users\tkm85\Documents\BOXERProject\Data\Shader\QuadFilterPS.cso</FullPath>
+      <FullPath>C:\Users\tkm85\Documents\GameIndustryEngine\Data\Shader\QuadFilterPS.cso</FullPath>
     </ContentFile>
     <ContentFile>
-      <FullPath>C:\Users\tkm85\Documents\BOXERProject\Data\Shader\SimulateCS.cso</FullPath>
+      <FullPath>C:\Users\tkm85\Documents\GameIndustryEngine\Data\Shader\SimulateCS.cso</FullPath>
     </ContentFile>
     <ContentFile>
-      <FullPath>C:\Users\tkm85\Documents\BOXERProject\Data\Shader\SoilEffectCS.cso</FullPath>
+      <FullPath>C:\Users\tkm85\Documents\GameIndustryEngine\Data\Shader\SoilEffectCS.cso</FullPath>
     </ContentFile>
     <ContentFile>
-      <FullPath>C:\Users\tkm85\Documents\BOXERProject\Data\Shader\SpawnParticlesCS.cso</FullPath>
+      <FullPath>C:\Users\tkm85\Documents\GameIndustryEngine\Data\Shader\SpawnParticlesCS.cso</FullPath>
     </ContentFile>
     <ContentFile>
-      <FullPath>C:\Users\tkm85\Documents\BOXERProject\Data\Shader\FullScreenQuadPS.cso</FullPath>
+      <FullPath>C:\Users\tkm85\Documents\GameIndustryEngine\Data\Shader\FullScreenQuadPS.cso</FullPath>
     </ContentFile>
     <ContentFile>
-      <FullPath>C:\Users\tkm85\Documents\BOXERProject\Data\Shader\FullScreenQuadPSMS.cso</FullPath>
+      <FullPath>C:\Users\tkm85\Documents\GameIndustryEngine\Data\Shader\FullScreenQuadPSMS.cso</FullPath>
     </ContentFile>
     <ContentFile>
-      <FullPath>C:\Users\tkm85\Documents\BOXERProject\Data\Shader\FullScreenQuadVS.cso</FullPath>
+      <FullPath>C:\Users\tkm85\Documents\GameIndustryEngine\Data\Shader\FullScreenQuadVS.cso</FullPath>
     </ContentFile>
     <ContentFile>
-      <FullPath>C:\Users\tkm85\Documents\BOXERProject\Data\Shader\GaussianBlurConvolutionPS.cso</FullPath>
+      <FullPath>C:\Users\tkm85\Documents\GameIndustryEngine\Data\Shader\GaussianBlurConvolutionPS.cso</FullPath>
     </ContentFile>
     <ContentFile>
-      <FullPath>C:\Users\tkm85\Documents\BOXERProject\Data\Shader\GaussianBlurDownsamplingPS.cso</FullPath>
+      <FullPath>C:\Users\tkm85\Documents\GameIndustryEngine\Data\Shader\GaussianBlurDownsamplingPS.cso</FullPath>
     </ContentFile>
     <ContentFile>
-      <FullPath>C:\Users\tkm85\Documents\BOXERProject\Data\Shader\GaussianBlurHorizontalPS.cso</FullPath>
+      <FullPath>C:\Users\tkm85\Documents\GameIndustryEngine\Data\Shader\GaussianBlurHorizontalPS.cso</FullPath>
     </ContentFile>
     <ContentFile>
-      <FullPath>C:\Users\tkm85\Documents\BOXERProject\Data\Shader\GaussianBlurVerticalPS.cso</FullPath>
+      <FullPath>C:\Users\tkm85\Documents\GameIndustryEngine\Data\Shader\GaussianBlurVerticalPS.cso</FullPath>
     </ContentFile>
     <ContentFile>
-      <FullPath>C:\Users\tkm85\Documents\BOXERProject\Data\Shader\GeometricPrimitivePS.cso</FullPath>
+      <FullPath>C:\Users\tkm85\Documents\GameIndustryEngine\Data\Shader\GeometricPrimitivePS.cso</FullPath>
     </ContentFile>
     <ContentFile>
-      <FullPath>C:\Users\tkm85\Documents\BOXERProject\Data\Shader\GeometricPrimitiveVS.cso</FullPath>
+      <FullPath>C:\Users\tkm85\Documents\GameIndustryEngine\Data\Shader\GeometricPrimitiveVS.cso</FullPath>
     </ContentFile>
     <ContentFile>
-      <FullPath>C:\Users\tkm85\Documents\BOXERProject\Data\Shader\GlowExtractionPS.cso</FullPath>
+      <FullPath>C:\Users\tkm85\Documents\GameIndustryEngine\Data\Shader\GlowExtractionPS.cso</FullPath>
     </ContentFile>
     <ContentFile>
-      <FullPath>C:\Users\tkm85\Documents\BOXERProject\Data\Shader\LensFlarePS.cso</FullPath>
+      <FullPath>C:\Users\tkm85\Documents\GameIndustryEngine\Data\Shader\LensFlarePS.cso</FullPath>
     </ContentFile>
     <ContentFile>
-      <FullPath>C:\Users\tkm85\Documents\BOXERProject\Data\Shader\MSAAResolvePS.cso</FullPath>
+      <FullPath>C:\Users\tkm85\Documents\GameIndustryEngine\Data\Shader\MSAAResolvePS.cso</FullPath>
     </ContentFile>
     <ContentFile>
-      <FullPath>C:\Users\tkm85\Documents\BOXERProject\Data\Shader\MSAAResolveVS.cso</FullPath>
+      <FullPath>C:\Users\tkm85\Documents\GameIndustryEngine\Data\Shader\MSAAResolveVS.cso</FullPath>
     </ContentFile>
     <ContentFile>
-      <FullPath>C:\Users\tkm85\Documents\BOXERProject\Data\Shader\NormalBlurPS.cso</FullPath>
+      <FullPath>C:\Users\tkm85\Documents\GameIndustryEngine\Data\Shader\NormalBlurPS.cso</FullPath>
     </ContentFile>
     <ContentFile>
-      <FullPath>C:\Users\tkm85\Documents\BOXERProject\Data\Shader\PhysicallyBasedRenderingDissolvePS.cso</FullPath>
+      <FullPath>C:\Users\tkm85\Documents\GameIndustryEngine\Data\Shader\PhysicallyBasedRenderingDissolvePS.cso</FullPath>
     </ContentFile>
     <ContentFile>
-      <FullPath>C:\Users\tkm85\Documents\BOXERProject\Data\Shader\PhysicallyBasedRenderingPS.cso</FullPath>
+      <FullPath>C:\Users\tkm85\Documents\GameIndustryEngine\Data\Shader\PhysicallyBasedRenderingPS.cso</FullPath>
     </ContentFile>
     <ContentFile>
-      <FullPath>C:\Users\tkm85\Documents\BOXERProject\Data\Shader\PhysicallyBasedRenderingSkinPS.cso</FullPath>
+      <FullPath>C:\Users\tkm85\Documents\GameIndustryEngine\Data\Shader\PhysicallyBasedRenderingSkinPS.cso</FullPath>
     </ContentFile>
     <ContentFile>
-      <FullPath>C:\Users\tkm85\Documents\BOXERProject\Data\Shader\PhysicallyBasedRenderingSkinVS.cso</FullPath>
+      <FullPath>C:\Users\tkm85\Documents\GameIndustryEngine\Data\Shader\PhysicallyBasedRenderingSkinVS.cso</FullPath>
     </ContentFile>
     <ContentFile>
-      <FullPath>C:\Users\tkm85\Documents\BOXERProject\Data\Shader\PhysicallyBasedRenderingVS.cso</FullPath>
+      <FullPath>C:\Users\tkm85\Documents\GameIndustryEngine\Data\Shader\PhysicallyBasedRenderingVS.cso</FullPath>
     </ContentFile>
     <ContentFile>
-      <FullPath>C:\Users\tkm85\Documents\BOXERProject\Data\Shader\PostProcessingEffectsPS.cso</FullPath>
+      <FullPath>C:\Users\tkm85\Documents\GameIndustryEngine\Data\Shader\PostProcessingEffectsPS.cso</FullPath>
     </ContentFile>
     <ContentFile>
-      <FullPath>C:\Users\tkm85\Documents\BOXERProject\Data\Shader\QuadAlphaCutOffPS.cso</FullPath>
+      <FullPath>C:\Users\tkm85\Documents\GameIndustryEngine\Data\Shader\QuadAlphaCutOffPS.cso</FullPath>
     </ContentFile>
     <ContentFile>
-      <FullPath>C:\Users\tkm85\Documents\BOXERProject\Data\Shader\QuadDissolvePS.cso</FullPath>
+      <FullPath>C:\Users\tkm85\Documents\GameIndustryEngine\Data\Shader\QuadDissolvePS.cso</FullPath>
     </ContentFile>
     <ContentFile>
-      <FullPath>C:\Users\tkm85\Documents\BOXERProject\Data\Shader\QuadPS.cso</FullPath>
+      <FullPath>C:\Users\tkm85\Documents\GameIndustryEngine\Data\Shader\QuadPS.cso</FullPath>
     </ContentFile>
     <ContentFile>
-      <FullPath>C:\Users\tkm85\Documents\BOXERProject\Data\Shader\QuadPSMS.cso</FullPath>
+      <FullPath>C:\Users\tkm85\Documents\GameIndustryEngine\Data\Shader\QuadPSMS.cso</FullPath>
     </ContentFile>
     <ContentFile>
-      <FullPath>C:\Users\tkm85\Documents\BOXERProject\Data\Shader\QuadVS.cso</FullPath>
+      <FullPath>C:\Users\tkm85\Documents\GameIndustryEngine\Data\Shader\QuadVS.cso</FullPath>
     </ContentFile>
     <ContentFile>
-      <FullPath>C:\Users\tkm85\Documents\BOXERProject\Data\Shader\ShadowMapPS.cso</FullPath>
+      <FullPath>C:\Users\tkm85\Documents\GameIndustryEngine\Data\Shader\ShadowMapPS.cso</FullPath>
     </ContentFile>
     <ContentFile>
-      <FullPath>C:\Users\tkm85\Documents\BOXERProject\Data\Shader\SkyMapPS.cso</FullPath>
+      <FullPath>C:\Users\tkm85\Documents\GameIndustryEngine\Data\Shader\SkyMapPS.cso</FullPath>
     </ContentFile>
     <ContentFile>
-      <FullPath>C:\Users\tkm85\Documents\BOXERProject\Data\Shader\SkyMapVS.cso</FullPath>
+      <FullPath>C:\Users\tkm85\Documents\GameIndustryEngine\Data\Shader\SkyMapVS.cso</FullPath>
     </ContentFile>
     <ContentFile>
-      <FullPath>C:\Users\tkm85\Documents\BOXERProject\Data\Shader\StandardPS.cso</FullPath>
+      <FullPath>C:\Users\tkm85\Documents\GameIndustryEngine\Data\Shader\StandardPS.cso</FullPath>
     </ContentFile>
     <ContentFile>
-      <FullPath>C:\Users\tkm85\Documents\BOXERProject\Data\Shader\StandardVS.cso</FullPath>
+      <FullPath>C:\Users\tkm85\Documents\GameIndustryEngine\Data\Shader\StandardVS.cso</FullPath>
     </ContentFile>
     <ContentFile>
-      <FullPath>C:\Users\tkm85\Documents\BOXERProject\Data\Shader\StandardVSSkin.cso</FullPath>
+      <FullPath>C:\Users\tkm85\Documents\GameIndustryEngine\Data\Shader\StandardVSSkin.cso</FullPath>
     </ContentFile>
     <ContentFile>
-      <FullPath>C:\Users\tkm85\Documents\BOXERProject\Data\Shader\ToneMapPS.cso</FullPath>
+      <FullPath>C:\Users\tkm85\Documents\GameIndustryEngine\Data\Shader\ToneMapPS.cso</FullPath>
     </ContentFile>
     <ContentFile>
-      <FullPath>C:\Users\tkm85\Documents\BOXERProject\Data\Shader\VelocityMapPS.cso</FullPath>
+      <FullPath>C:\Users\tkm85\Documents\GameIndustryEngine\Data\Shader\VelocityMapPS.cso</FullPath>
     </ContentFile>
   </ContentFiles>
   <SatelliteDlls />
