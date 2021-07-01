@@ -1,2 +1,0 @@
-D:\Phoenix_Project\BOXER\Project\Library\PhoenixLibrary\Build\vs2019\lib\x64\Debug\PhoenixLib_Math.pdb
-D:\Phoenix_Project\BOXER\Project\Library\PhoenixLibrary\Build\vs2019\obj\PhoenixLib_Math\x64\Debug\PhoenixLib_Math.pdb
