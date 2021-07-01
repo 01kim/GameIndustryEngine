@@ -1,0 +1,270 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Include">
+      <UniqueIdentifier>{2e81eb31-a809-426d-a937-eec5c8a70342}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{51f7fb2c-6123-4c97-94c7-bbb9876b1f69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Main">
+      <UniqueIdentifier>{7d84b1d9-4624-44c7-873f-d0e61aa94cdd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\Object">
+      <UniqueIdentifier>{ca520ddb-c27a-4272-937c-8aa0cb62358c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Object">
+      <UniqueIdentifier>{b628d7df-22d5-4882-bea4-0b216645c1a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\Shader">
+      <UniqueIdentifier>{05234696-b175-4234-8212-a0149bc28e82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Shader">
+      <UniqueIdentifier>{98c63c8a-ee40-4eca-89cf-2ac811038b72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\Input">
+      <UniqueIdentifier>{9ad02abb-79c4-48fb-b895-d190127f789f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Input">
+      <UniqueIdentifier>{e72b62fb-6177-4803-a2a4-2ae1452c062f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\FrameBuffer">
+      <UniqueIdentifier>{9d3dfb7d-308e-421a-9bcc-53c74c5e3cc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\FrameBuffer">
+      <UniqueIdentifier>{80977c10-40ae-4ba6-8a66-f6c618586873}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\Quad">
+      <UniqueIdentifier>{a41b8556-a1c9-4b51-bb90-3db1698873b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Quad">
+      <UniqueIdentifier>{216d0e40-0de1-49ae-8af3-b1fe3b9be554}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\IBL">
+      <UniqueIdentifier>{df50ebd4-f2e1-4f3c-83fd-b0dc11607248}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\IBL">
+      <UniqueIdentifier>{6ae95d14-913c-4aa3-8154-d6fa30740a38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\ComputeShader">
+      <UniqueIdentifier>{bb6d9b9a-229c-4758-abe1-4d84d1b3730a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\ComputeShader">
+      <UniqueIdentifier>{f3bfe96e-281c-41cc-90b5-2cb52b2fc992}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\Effect">
+      <UniqueIdentifier>{dd9f7100-fadf-4541-b563-502b81d700eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\Script">
+      <UniqueIdentifier>{31543a1f-04dd-4b3a-a3f9-fcddc91af041}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Script">
+      <UniqueIdentifier>{2d6d56c0-c0a2-4636-aac9-481d77bad2c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\Audio">
+      <UniqueIdentifier>{82353a04-4382-4890-bcb5-c1ce6c51aaf1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Audio">
+      <UniqueIdentifier>{f8b3e180-a7e3-4ae8-abbd-eb2a94086b67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\Component">
+      <UniqueIdentifier>{da5fbbf8-9498-4241-a037-eb82e8e35d27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Compoment">
+      <UniqueIdentifier>{1eca1275-ba67-4e07-a645-ec98bc7c6acc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\SystemContainer">
+      <UniqueIdentifier>{a6e0a397-1b0a-4e99-a6fc-f4ada2c8c400}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\SystemContainer">
+      <UniqueIdentifier>{59b7a086-ce06-4515-9dd9-33f81f11bd27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\System">
+      <UniqueIdentifier>{b9876ba1-a1ef-4823-8175-e5056ee2d3d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\System">
+      <UniqueIdentifier>{dae13f82-91b0-44ca-bf30-1a27afa5742a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\Actor">
+      <UniqueIdentifier>{9bfc9b85-f36d-436b-b63f-b39da2870c8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Actor">
+      <UniqueIdentifier>{d87dd28b-1201-4e3c-b0fb-4fdbc6d7d771}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\StateMachine">
+      <UniqueIdentifier>{bf37f27e-91cb-481f-9b86-0e5e44657a5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\SharedFromThis">
+      <UniqueIdentifier>{564c2955-be47-4e1b-801e-ec406daa73ea}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\Source\FrameWork\pch.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Include\Phoenix\FrameWork\Main.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Include\Phoenix\FrameWork\Object\Object.h">
+      <Filter>Include\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Include\Phoenix\FrameWork\Shader\BasicShader.h">
+      <Filter>Include\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Include\Phoenix\FrameWork\Shader\BasicSkinShader.h">
+      <Filter>Include\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Include\Phoenix\FrameWork\Shader\Shader.h">
+      <Filter>Include\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Include\Phoenix\FrameWork\Input\InputDevice.h">
+      <Filter>Include\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Include\Phoenix\FrameWork\Shader\StandardShader.h">
+      <Filter>Include\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Include\Phoenix\FrameWork\Shader\PBRShader.h">
+      <Filter>Include\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Include\Phoenix\FrameWork\Shader\SkyMapShader.h">
+      <Filter>Include\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Include\Phoenix\FrameWork\FrameBuffer\FrameBuffer.h">
+      <Filter>Include\FrameBuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Include\Phoenix\FrameWork\Quad\Quad.h">
+      <Filter>Include\Quad</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Include\Phoenix\FrameWork\IBL\IBL.h">
+      <Filter>Include\IBL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Include\Phoenix\FrameWork\ComputeShader\TestComputeShader.h">
+      <Filter>Include\ComputeShader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Include\Phoenix\FrameWork\ComputeShader\ComputeShader.h">
+      <Filter>Include\ComputeShader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Include\Phoenix\FrameWork\ComputeShader\BitonicSort.h">
+      <Filter>Include\ComputeShader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Include\Phoenix\FrameWork\ComputeShader\GPUParticle.h">
+      <Filter>Include\ComputeShader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Include\Phoenix\FrameWork\Effect\EffectSystem.h">
+      <Filter>Include\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Include\Phoenix\FrameWork\Audio\Audio.h">
+      <Filter>Include\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Include\Phoenix\FrameWork\Audio\WAVFileReader.h">
+      <Filter>Include\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Include\Phoenix\FrameWork\Component\Component.h">
+      <Filter>Include\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Include\Phoenix\FrameWork\SystemContainer\SystemContainer.h">
+      <Filter>Include\SystemContainer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Include\Phoenix\FrameWork\System\ActorSystem.h">
+      <Filter>Include\System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Include\Phoenix\FrameWork\System\System.h">
+      <Filter>Include\System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Include\Phoenix\FrameWork\Actor\Actor.h">
+      <Filter>Include\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Include\Phoenix\FrameWork\Component\Transform.h">
+      <Filter>Include\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Include\Phoenix\FrameWork\System\SceneSystem.h">
+      <Filter>Include\System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Include\Phoenix\FrameWork\StateMachine\StateMachine.h">
+      <Filter>Include\StateMachine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Include\Phoenix\FrameWork\Component\Model.h">
+      <Filter>Include\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Include\Phoenix\FrameWork\Component\Animator.h">
+      <Filter>Include\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Include\Phoenix\FrameWork\SharedFromThis\SharedFromThis.h">
+      <Filter>Include\SharedFromThis</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\Source\FrameWork\pch.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\FrameWork\Main\Main.cpp">
+      <Filter>Source\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\FrameWork\Object\Object.cpp">
+      <Filter>Source\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\FrameWork\Shader\BasicShader.cpp">
+      <Filter>Source\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\FrameWork\Shader\BasicSkinShader.cpp">
+      <Filter>Source\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\FrameWork\Input\InputDevice.cpp">
+      <Filter>Source\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\FrameWork\Shader\StandardShader.cpp">
+      <Filter>Source\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\FrameWork\Shader\PBRShader.cpp">
+      <Filter>Source\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Include\Phoenix\FrameWork\Shader\SkyMapShader.cpp">
+      <Filter>Source\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\FrameWork\FrameBuffer\FrameBuffer.cpp">
+      <Filter>Source\FrameBuffer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\FrameWork\Quad\Quad.cpp">
+      <Filter>Source\Quad</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\FrameWork\IBL\IBL.cpp">
+      <Filter>Source\IBL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\FrameWork\ComputeShader\TestComputeShader.cpp">
+      <Filter>Source\ComputeShader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\FrameWork\ComputeShader\BitonicSort.cpp">
+      <Filter>Source\ComputeShader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\FrameWork\ComputeShader\ComputeShader.cpp">
+      <Filter>Source\ComputeShader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\FrameWork\ComputeShader\GPUParticle.cpp">
+      <Filter>Source\ComputeShader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\FrameWork\Audio\Audio.cpp">
+      <Filter>Source\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\FrameWork\Audio\WAVFileReader.cpp">
+      <Filter>Source\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\FrameWork\SystemContainer\SystemContainer.cpp">
+      <Filter>Source\SystemContainer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\FrameWork\System\ActorSystem.cpp">
+      <Filter>Source\System</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\FrameWork\Actor\Actor.cpp">
+      <Filter>Source\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\FrameWork\System\SceneSystem.cpp">
+      <Filter>Source\System</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\FrameWork\Compoment\Model.cpp">
+      <Filter>Source\Compoment</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\FrameWork\Compoment\Animator.cpp">
+      <Filter>Source\Compoment</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
