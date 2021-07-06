@@ -165,9 +165,6 @@
     <ClInclude Include="..\..\..\Include\Phoenix\FrameWork\SystemContainer\SystemContainer.h">
       <Filter>Include\SystemContainer</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\Include\Phoenix\FrameWork\System\ActorSystem.h">
-      <Filter>Include\System</Filter>
-    </ClInclude>
     <ClInclude Include="..\..\..\Include\Phoenix\FrameWork\System\System.h">
       <Filter>Include\System</Filter>
     </ClInclude>
@@ -191,6 +188,12 @@
     </ClInclude>
     <ClInclude Include="..\..\..\Include\Phoenix\FrameWork\SharedFromThis\SharedFromThis.h">
       <Filter>Include\SharedFromThis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Include\Phoenix\FrameWork\System\Renderer.h">
+      <Filter>Include\System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Include\Phoenix\FrameWork\System\ActorSystem.h">
+      <Filter>Include\System</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -251,9 +254,6 @@
     <ClCompile Include="..\..\..\Source\FrameWork\SystemContainer\SystemContainer.cpp">
       <Filter>Source\SystemContainer</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\Source\FrameWork\System\ActorSystem.cpp">
-      <Filter>Source\System</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\..\Source\FrameWork\Actor\Actor.cpp">
       <Filter>Source\Actor</Filter>
     </ClCompile>
@@ -265,6 +265,12 @@
     </ClCompile>
     <ClCompile Include="..\..\..\Source\FrameWork\Compoment\Animator.cpp">
       <Filter>Source\Compoment</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\FrameWork\System\Renderer.cpp">
+      <Filter>Source\System</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\FrameWork\System\ActorSystem.cpp">
+      <Filter>Source\System</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

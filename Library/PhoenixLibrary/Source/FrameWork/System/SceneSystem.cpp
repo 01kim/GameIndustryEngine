@@ -6,18 +6,46 @@ namespace Phoenix
 {
 	namespace FrameWork
 	{
+		// コンストラクタ
+		void IScene::Construct()
+		{
+			DoConstruct();
+		}
+
+		// デストラクタ
+		void IScene::Destruct()
+		{
+			DoDestruct();
+		}
+
 		// 初期化
 		void IScene::Initialize()
 		{
-			Super::Initialize();
-
-
+			DoInitialize();
 		}
 
 		// 終了化
 		void IScene::Finalize()
 		{
+			DoFinalize();
+		}
 
+		// 更新
+		void IScene::Update(Phoenix::f32 elapsedTime)
+		{
+			DoUpdate(elapsedTime);
+		}
+
+		// 描画
+		void IScene::Draw(Phoenix::f32 elapsedTime)
+		{
+
+		}
+
+		// 生成
+		std::shared_ptr<SceneSystem> SceneSystem::Create()
+		{
+			return std::make_shared<SceneSystem>();
 		}
 
 		// コンストラクタ
@@ -49,28 +77,32 @@ namespace Phoenix
 		}
 
 		// 更新
-		void SceneSystem::Update()
+		void SceneSystem::Update(Phoenix::f32 elapsedTime)
 		{
-			if (nextScene != nullptr)
+			if (!currentScene) return;
+
+			if (nextScene)
 			{
 				currentScene = nextScene;
 				currentScene->Initialize();
 				nextScene.reset();
 			}
 
-			currentScene->Update();
+			currentScene->Update(elapsedTime);
 		}
 
 		// 描画
-		void SceneSystem::Draw()
+		void SceneSystem::Draw(Phoenix::f32 elapsedTime)
 		{
-			currentScene->Draw();
+			if (!currentScene) return;
+			currentScene->Draw(elapsedTime);
 		}
 
-		// シーンを削除
-		void SceneSystem::RemoveScene(std::shared_ptr<IScene> scene)
+		// シーンを追加
+		void SceneSystem::AddScene(std::shared_ptr<IScene> scene)
 		{
-
+			scene->Construct();
+			scenes.emplace_back(scene);
 		}
 	}
 }

@@ -1,5 +1,6 @@
 #include "pch.h"
 #include "Phoenix/FrameWork/SystemContainer/SystemContainer.h"
+#include "Phoenix/FrameWork/System/System.h"
 
 
 namespace Phoenix
@@ -7,9 +8,9 @@ namespace Phoenix
 	namespace FrameWork
 	{
 		// 生成
-		std::unique_ptr<SystemContainer> SystemContainer::Create()
+		std::shared_ptr<SystemContainer> SystemContainer::Create()
 		{
-			return std::make_unique<SystemContainer>();
+			return std::make_shared<SystemContainer>();
 		}
 
 		// コンストラクタ
@@ -40,21 +41,28 @@ namespace Phoenix
 		}
 
 		// 更新
-		void SystemContainer::Update()
+		void SystemContainer::Update(Phoenix::f32 elapsedTime)
 		{
 			for (auto system : systems)
 			{
-				system->Update();
+				system->Update(elapsedTime);
 			}
 		}
 
 		// 描画
-		void SystemContainer::Draw()
+		void SystemContainer::Draw(Phoenix::f32 elapsedTime)
 		{
 			for (auto system : systems)
 			{
-				system->Draw();
+				system->Draw(elapsedTime);
 			}
+		}
+
+		// システムの追加
+		void SystemContainer::AddSystem(std::shared_ptr<ISystem> system)
+		{
+			system->SetParent(shared_from_this());
+			systems.push_back(system);
 		}
 	}
 }

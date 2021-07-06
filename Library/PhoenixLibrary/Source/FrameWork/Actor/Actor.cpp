@@ -54,32 +54,34 @@ namespace Phoenix
 		}
 
 		// 更新
-		void Actor::Update()
+		void Actor::Update(Phoenix::f32 elapsedTime)
 		{
 			for (auto child : children)
 			{
-				child->Update();
+				child->Update(elapsedTime);
 			}
 
 			for (auto component : components)
 			{
-				component->Update();
+				component->Update(elapsedTime);
 			}
+
+			DoUpdate(elapsedTime);
 		}
 
 		// 描画
-		void Actor::Draw()
-		{
-			for (auto child : children)
-			{
-				child->Draw();
-			}
+		//void Actor::Draw(Phoenix::f32 elapsedTime)
+		//{
+		//	for (auto child : children)
+		//	{
+		//		child->Draw(elapsedTime);
+		//	}
 
-			for (auto component : components)
-			{
-				//component->Draw();
-			}
-		}
+		//	/*for (auto component : components)
+		//	{
+		//		component->Draw();
+		//	}*/
+		//}
 
 		// 親アクターの設定
 		void Actor::SetParentActor(std::shared_ptr<Actor> actor)

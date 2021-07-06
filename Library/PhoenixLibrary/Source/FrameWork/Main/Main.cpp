@@ -7,6 +7,9 @@
 #include "../Source/Graphics/Device/Win/DirectX11/DeviceDX11.h"
 #include "../Source/Graphics/Context/Win/DirectX11/ContextDX11.h"
 #include "Phoenix/FrameWork/Input/InputDevice.h"
+#include "Phoenix/FrameWork/System/SceneSystem.h"
+#include "Phoenix/FrameWork/System/ActorSystem.h"
+#include "Phoenix/FrameWork/System/Renderer.h"
 
 
 namespace Phoenix
@@ -80,13 +83,27 @@ namespace Phoenix
 			//io.Fonts->AddFontFromFileTTF(".\\consolab.ttf", 10.0f, NULL, io.Fonts->GetGlyphRangesJapanese());
 			//io.Fonts->AddFontFromFileTTF(".\\Inconsolata-Bold.ttf", 12.0f, NULL, io.Fonts->GetGlyphRangesJapanese());
 			
+			// ƒVƒXƒeƒ€’Ç‰Á
+			systemContainer = SystemContainer::Create();
+			{
+				systemContainer->AddSystem<SceneSystem>();
+				systemContainer->AddSystem<ActorSystem>();
+				systemContainer->AddSystem<Renderer>();
+			}
+			systemContainer->Construct();
+			systemContainer->Initialize();
+
 			elapsedTime = 0.0f;
+
+			DoInitialize();
 
 			return true;
 		}
 
 		void Main::Finalize()
 		{
+			systemContainer->Finalize();
+
 			ImGui_ImplDX11_Shutdown();
 			ImGui_ImplWin32_Shutdown();
 			ImGui::DestroyContext();
@@ -109,15 +126,14 @@ namespace Phoenix
 				ImGui_ImplDX11_NewFrame();
 				ImGui_ImplWin32_NewFrame();
 				ImGui::NewFrame();
-				//ImGuizmo::BeginFrame();
 
-				Update(elapsedTime);
+				systemContainer->Update(elapsedTime);
 			}
 
 			// •`‰æ
 			{
 				graphicsDevice->RenderBegin();
-				Render(elapsedTime);
+				systemContainer->Draw(elapsedTime);
 				graphicsDevice->RenderEnd();
 
 				ImGui::Render();

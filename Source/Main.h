@@ -17,7 +17,6 @@
 #include "Phoenix/FrameWork/Shader/Shader.h"
 #include "../Source/Loader/Loader.h"
 #include "imgui.h"
-#include "Scene/SceneSystem.h"
 
 
 //****************************************************************************
@@ -27,7 +26,6 @@ class Main : public Phoenix::FrameWork::Main
 {
 private:
 	using Super = Phoenix::FrameWork::Main;
-	std::unique_ptr<SceneSystem> sceneSystem;
 
 public:
 	Main() {}
@@ -35,24 +33,5 @@ public:
 
 public:
 	// 初期化
-	bool Initialize(Phoenix::uintPtr instance) override;
-
-	// 終了化
-	void Finalize() override;
-
-	// 更新
-	void Update(Phoenix::f32 elapsedTime) override;
-
-	// 描画
-	void Render(Phoenix::f32 elapsedTime) override;
-
-	// GUI
-	void GUI();
-
-protected:
-	//// コンテナセットアップ
-	//void OnSetupContainer(Phoenix::FrameWork::Container* container) override;
-
-	//// ゲームセットアップ
-	//void OnSetupGame(Phoenix::FrameWork::IGame* game) override;
+	bool DoInitialize() override;
 };

@@ -47,6 +47,7 @@
     <ClInclude Include="..\..\..\Include\Phoenix\FrameWork\StateMachine\StateMachine.h" />
     <ClInclude Include="..\..\..\Include\Phoenix\FrameWork\SystemContainer\SystemContainer.h" />
     <ClInclude Include="..\..\..\Include\Phoenix\FrameWork\System\ActorSystem.h" />
+    <ClInclude Include="..\..\..\Include\Phoenix\FrameWork\System\Renderer.h" />
     <ClInclude Include="..\..\..\Include\Phoenix\FrameWork\System\SceneSystem.h" />
     <ClInclude Include="..\..\..\Include\Phoenix\FrameWork\System\System.h" />
     <ClInclude Include="..\..\..\Source\FrameWork\pch.h" />
@@ -80,6 +81,7 @@
     <ClCompile Include="..\..\..\Source\FrameWork\Shader\StandardShader.cpp" />
     <ClCompile Include="..\..\..\Source\FrameWork\SystemContainer\SystemContainer.cpp" />
     <ClCompile Include="..\..\..\Source\FrameWork\System\ActorSystem.cpp" />
+    <ClCompile Include="..\..\..\Source\FrameWork\System\Renderer.cpp" />
     <ClCompile Include="..\..\..\Source\FrameWork\System\SceneSystem.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">

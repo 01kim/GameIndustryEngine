@@ -1,34 +1,32 @@
-#include "Scene.h"
-#include "SceneSystem.h"
-#include "../Source/Graphics/Context/Win/DirectX11/ContextDX11.h"
-#include "../../ExternalLibrary/ImGui/Include/imgui.h"
-#include "../../ExternalLibrary/ImGui/Include/imgui_impl_win32.h"
-#include "../../ExternalLibrary/ImGui/Include/imgui_impl_dx11.h"
-#include "../../ExternalLibrary/ImGui/Include/imgui_internal.h"
-#include "Phoenix/FrameWork/Input/InputDevice.h"
-#include "Phoenix/FND/Util.h"
+#include "SceneTitle.h"
 
 
-void SceneTitle::Construct(SceneSystem* sceneSystem)
+// コンストラクタ
+void SceneTitle::DoConstruct()
 {
-	this->sceneSystem = sceneSystem;
-	display = sceneSystem->GetDisplay();
-	graphicsDevice = sceneSystem->GetGraphicsDevice();
-	commonData = sceneSystem->GetSceneCommonData();
+
 }
 
-void SceneTitle::Initialize()
+// デストラクタ
+void SceneTitle::DoDestruct()
 {
+
 }
 
-void SceneTitle::Update(Phoenix::f32 elapsedTime)
+// 初期化
+void SceneTitle::DoInitialize()
 {
+
 }
 
-void SceneTitle::Draw(Phoenix::f32 elapsedTime)
+// 終了化
+void SceneTitle::DoFinalize()
 {
+
 }
 
-void SceneTitle::GUI()
+// 更新
+void SceneTitle::DoUpdate(Phoenix::f32 elapsedTime)
 {
+
 }
