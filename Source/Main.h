@@ -15,6 +15,8 @@
 #include "Phoenix/FrameWork/Renderer/Renderer.h"
 #include "Phoenix/FrameWork/Object/Object.h"
 #include "Phoenix/FrameWork/Shader/Shader.h"
+#include "Phoenix/FrameWork/System/ActorSystem.h"
+#include "Phoenix/FrameWork/System/SceneSystem.h"
 #include "../Source/Loader/Loader.h"
 #include "imgui.h"
 
@@ -26,6 +28,13 @@ class Main : public Phoenix::FrameWork::Main
 {
 private:
 	using Super = Phoenix::FrameWork::Main;
+
+private:
+	// アクター管理（プレイヤー、エネミー、ステージ etc...）
+	std::shared_ptr<Phoenix::FrameWork::ActorSystem> actorSystem;
+
+	// シーン管理（タイトル、ゲーム、ゲームクリア、ゲームオーバー etc...）
+	std::shared_ptr<Phoenix::FrameWork::SceneSystem> sceneSystem;
 
 public:
 	Main() {}

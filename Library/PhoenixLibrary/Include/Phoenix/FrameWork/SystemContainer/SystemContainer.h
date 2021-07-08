@@ -1,15 +1,16 @@
 #pragma once
 
-#include "Phoenix/FrameWork/System/System.h"
 #include <memory>
 #include <list>
+#include "Phoenix/Math/PhoenixMath.h"
 
 
 namespace Phoenix
 {
 	namespace FrameWork
 	{
-		class SystemContainer
+		class ISystem;
+		class SystemContainer : public std::enable_shared_from_this<SystemContainer>
 		{
 		private:
 			std::list<std::shared_ptr<ISystem>> systems;
@@ -20,7 +21,7 @@ namespace Phoenix
 
 		public:
 			// 生成
-			static std::unique_ptr<SystemContainer> Create();
+			static std::shared_ptr<SystemContainer> Create();
 
 			// コンストラクタ
 			void Construct();
@@ -32,32 +33,40 @@ namespace Phoenix
 			void Finalize();
 
 			// 更新
-			void Update();
+			void Update(Phoenix::f32 elapsedTime);
 
 			// 描画
-			void Draw();
+			void Draw(Phoenix::f32 elapsedTime);
+
+		private:
+			// システムの追加
+			void AddSystem(std::shared_ptr<ISystem> system);
 
 		public:
+			// システムの取得
 			template<class T>
-			T* GetSystem()
+			std::shared_ptr<T> GetSystem()
 			{
 				for (auto system : systems)
 				{
-					T* buff = dynamic_cast<T*>(system.get());
-					if (buff != nullptr) return buff;
+					std::shared_ptr<T> buff = std::dynamic_pointer_cast<T>(system);
+					if (buff != nullptr)
+					{
+						return buff;
+					}
 				}
+
 				return nullptr;
 			}
 
+			// システムの追加
 			template<class T>
-			T* AddSystem()
+			std::shared_ptr<T> AddSystem()
 			{
 				std::shared_ptr<T> buff = std::make_shared<T>();
+				AddSystem(buff);
 
-				buff->parent = this;
-				systems.push_back(buff);
-
-				return buff.get();
+				return buff;
 			}
 		};
 	}

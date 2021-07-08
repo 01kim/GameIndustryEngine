@@ -21,6 +21,9 @@ namespace Phoenix
 		// 初期化
 		void IScene::Initialize()
 		{
+			// アクターを管理する配列を初期化
+			actorSystem->ClearActors();
+
 			DoInitialize();
 		}
 
@@ -40,6 +43,12 @@ namespace Phoenix
 		void IScene::Draw(Phoenix::f32 elapsedTime)
 		{
 
+		}
+
+		// アクター管理クラスを設定
+		void IScene::SetActorSystem(std::shared_ptr<ActorSystem> actorSystem)
+		{
+			this->actorSystem = actorSystem;
 		}
 
 		// 生成
@@ -98,10 +107,17 @@ namespace Phoenix
 			currentScene->Draw(elapsedTime);
 		}
 
+		// アクター管理クラスを設定
+		void SceneSystem::SetActorSystem(std::shared_ptr<ActorSystem> actorSystem)
+		{
+			this->actorSystem = actorSystem;
+		}
+
 		// シーンを追加
 		void SceneSystem::AddScene(std::shared_ptr<IScene> scene)
 		{
 			scene->Construct();
+			scene->SetActorSystem(actorSystem);
 			scenes.emplace_back(scene);
 		}
 	}

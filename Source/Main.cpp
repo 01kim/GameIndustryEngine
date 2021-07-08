@@ -8,7 +8,7 @@
 #include "Phoenix/FrameWork/Shader/BasicShader.h"
 #include "Phoenix/FrameWork/Shader/BasicSkinShader.h"
 #include "Phoenix/FrameWork/Shader/StandardShader.h"
-#include "Phoenix/FrameWork/System/SceneSystem.h"
+#include "Player/Player.h"
 #include "Scene/SceneTitle.h"
 
 
@@ -26,7 +26,9 @@ namespace Phoenix
 // 初期化
 bool Main::DoInitialize()
 {
-	auto sceneSystem = systemContainer->GetSystem<Phoenix::FrameWork::SceneSystem>();
+	// シーン追加（タイトル、ゲーム、ゲームクリア、ゲームオーバー etc...）
+	sceneSystem = systemContainer->GetSystem<Phoenix::FrameWork::SceneSystem>();
+	sceneSystem->SetActorSystem(systemContainer->GetSystem<Phoenix::FrameWork::ActorSystem>());
 	{
 		sceneSystem->AddScene<SceneTitle>();
 	}

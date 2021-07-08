@@ -73,7 +73,7 @@ namespace Phoenix
 			//void Finalize() override;
 
 			// XV
-			void Update() override;
+			void Update();
 
 		public:
 			// ƒ‚ƒfƒ‹‚Ì“Ç‚İ‚İ

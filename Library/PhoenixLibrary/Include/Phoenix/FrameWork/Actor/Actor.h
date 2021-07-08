@@ -2,6 +2,7 @@
 
 #include <memory>
 #include <vector>
+#include "Phoenix/Math/PhoenixMath.h"
 
 
 namespace Phoenix
@@ -22,25 +23,30 @@ namespace Phoenix
 
 		public:
 			// 生成
-			static std::shared_ptr<Actor> Create();
+			//static std::shared_ptr<Actor> Create();
 
 			// コンストラクタ
-			virtual void Construct();
+			void Construct();
+			virtual void DoConstruct() {}
 
 			// デストラクタ
-			virtual void Destruct();
+			void Destruct();
+			virtual void DoDestruct() {}
 
 			// 初期化
-			virtual void Initialize();
+			void Initialize();
+			virtual void DoInitialize() {}
 
 			// 終了化
-			virtual void Finalize();
+			void Finalize();
+			virtual void DoFinalize() {}
 
 			// 更新
-			virtual void Update();
+			void Update(Phoenix::f32 elapsedTime);
+			virtual void DoUpdate(Phoenix::f32 elapsedTime) {}
 
 			// 描画
-			virtual void Draw();
+			//virtual void Draw(Phoenix::f32 elapsedTime);
 
 			// 親アクターの設定
 			void SetParentActor(std::shared_ptr<Actor> actor);
@@ -87,7 +93,7 @@ namespace Phoenix
 			{
 				for (auto component : components)
 				{
-					std::shared_ptr<T> obj = std::dynamic_pointer_cast<std::shared_ptr<T>>(component);
+					std::shared_ptr<T> obj = std::dynamic_pointer_cast<T>(component);
 					if (obj != nullptr)
 					{
 						return obj;

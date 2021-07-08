@@ -1,6 +1,7 @@
 #include "pch.h"
 #include "Phoenix/FrameWork/Actor/Actor.h"
 #include "Phoenix/FrameWork/Component/Component.h"
+#include "Phoenix/FrameWork/Component/Transform.h"
 
 
 namespace Phoenix
@@ -8,21 +9,22 @@ namespace Phoenix
 	namespace FrameWork
 	{
 		// 生成
-		std::shared_ptr<Actor> Actor::Create()
+		/*std::shared_ptr<Actor> Actor::Create()
 		{
 			return std::make_shared<Actor>();
-		}
+		}*/
 
 		// コンストラクタ
 		void Actor::Construct()
 		{
-
+			AddComponent<Transform>();
+			DoConstruct();
 		}
 
 		// デストラクタ
 		void Actor::Destruct()
 		{
-
+			DoDestruct();
 		}
 
 		// 初期化
@@ -37,6 +39,8 @@ namespace Phoenix
 			{
 				//component->Initialize();
 			}
+
+			DoInitialize();
 		}
 
 		// 終了化
@@ -51,6 +55,8 @@ namespace Phoenix
 			{
 				//component->Finalize();
 			}
+
+			DoFinalize();
 		}
 
 		// 更新
@@ -115,7 +121,7 @@ namespace Phoenix
 		void Actor::AddComponent(std::shared_ptr<Component> component)
 		{
 			component->SetOwner(shared_from_this());
-			//component->Construct();
+			component->Awake();
 
 			components.emplace_back(component);
 		}

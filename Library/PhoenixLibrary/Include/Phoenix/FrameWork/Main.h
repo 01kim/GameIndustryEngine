@@ -5,6 +5,7 @@
 #include "Phoenix/OS/Main.h"
 #include "Phoenix/OS/Display.h"
 #include "Phoenix/Graphics/GraphicsDevice.h"
+#include "Phoenix/FrameWork/SystemContainer/SystemContainer.h"
 
 
 namespace Phoenix
@@ -19,6 +20,7 @@ namespace Phoenix
 		protected:
 			std::unique_ptr<OS::IDisplay> display;
 			std::shared_ptr<Graphics::IGraphicsDevice> graphicsDevice;
+			std::shared_ptr<SystemContainer> systemContainer;
 			float elapsedTime = 0.0f;
 
 		public:
@@ -32,15 +34,12 @@ namespace Phoenix
 			// 終了化
 			void Finalize() override;
 
-			// 終了化
+			// 実行
 			void Run() override;
 
 		protected:
-			// 更新
-			virtual void Update(Phoenix::f32 elapsedTime) = 0;
-
-			// 描画
-			virtual void Render(Phoenix::f32 elapsedTime) = 0;
+			// 初期化
+			virtual bool DoInitialize() = 0;
 		};
 	} // namespace FrameWork
 } // namespace Phoenix

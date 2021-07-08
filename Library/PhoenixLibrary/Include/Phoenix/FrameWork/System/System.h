@@ -1,4 +1,6 @@
 #pragma once
+#include "Phoenix/Math/PhoenixMath.h"
+#include "Phoenix/FrameWork/SystemContainer/SystemContainer.h"
 
 
 namespace Phoenix
@@ -7,6 +9,9 @@ namespace Phoenix
 	{
 		class ISystem
 		{
+		private:
+			std::weak_ptr<SystemContainer> parent;
+
 		public:
 			ISystem() {}
 			virtual ~ISystem() {}
@@ -25,10 +30,17 @@ namespace Phoenix
 			virtual void Finalize() = 0;
 
 			// 更新
-			virtual void Update() = 0;
+			virtual void Update(Phoenix::f32 elapsedTime) = 0;
 
 			// 描画
-			virtual void Draw() = 0;
+			virtual void Draw(Phoenix::f32 elapsedTime) {}
+
+		public:
+			// 親ポインター設定
+			void SetParent(std::shared_ptr<SystemContainer> parent)
+			{
+				this->parent = parent;
+			}
 		};
 	}
 }

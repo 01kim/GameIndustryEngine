@@ -1,6 +1,7 @@
 #pragma once
 
 #include <memory>
+#include "Phoenix/Math/PhoenixMath.h"
 
 
 namespace Phoenix
@@ -25,7 +26,7 @@ namespace Phoenix
 			virtual void Start() {}
 
 			// 更新
-			virtual void Update() {}
+			virtual void Update(Phoenix::f32 elapsedTime) {}
 
 		public:
 			// オーナー設定
